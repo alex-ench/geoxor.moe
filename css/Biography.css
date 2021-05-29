@@ -1,0 +1,94 @@
+.biography {
+    padding: 100px 10% 0px 10%;
+    flex-direction: column;
+    align-items: left;
+}
+
+.biography-title {
+    font-size: 64px;
+    text-align: center;
+    color: #fff
+}
+
+.biography-container {
+    padding-top: 32px;
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.biography-container p {
+    border: 4px dashed #24133f;
+    border-radius: 16px;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.biography-content {
+    background-color: #0f0423a3;
+    padding: 20px 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .biography {
+        padding: 100px 5% 20px 5%;
+        height: 100px;
+    }
+    .biography-container{
+        padding: 5% 5% 20px 5%;
+        font-size: 14px;
+    }
+    .biography-title {
+        font-size: 40px;
+        padding: 40px 10% 0 10%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .biography {
+        padding: 120px 5% 20px 5%;
+        height: 100px;
+    }
+    .biography-container{
+        padding: 5% 5% 20px 5%;
+        font-size: 16px;
+    }
+    .biography-title {
+        font-size: 40px;
+        padding: 30px 10% 0 10%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .biography {
+        padding: 120px 10% 20px 10%;
+        height: 100px;
+    }
+    .biography-container{
+        padding-bottom: 20px;
+    }
+    .biography-title {
+        font-size: 40px;
+        padding: 40px 10% 0 10%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .biography {
+        padding: 100px 5% 25px 5%;
+        height: 100px;
+    }
+    .biography-container{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+}

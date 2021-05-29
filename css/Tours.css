@@ -1,0 +1,362 @@
+.tours {
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    padding: 100px 0px 0px 0px;
+}
+
+.tours-full-width {
+    position: relative;
+    z-index: 100;
+    padding: 25px 20%;
+}
+
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 92px;
+    padding-bottom: 115px;
+    text-align: left;
+    position: relative;
+
+}
+
+.tours-grid-1300 .tours-container-inner, .tours-grid-1300 .tours-footer-bottom-border-holder.tours-in-grid, .tours-grid-1300 .tours-footer-top-border-holder.tours-in-grid, .tours-grid-1300 .tours-grid, .tours-grid-1300 .tours-section-inner {
+    width: 1300px;
+}
+
+.tours-grid-section .tours-section-inner {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+}
+
+.tours-section-inner-margin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vc_col-sm-12 {
+    width: 100%;
+    /* float: left; */
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+
+.vc_column-inner {
+    box-sizing: border-box;
+    /* width: 800px; */
+    padding: 0px 15px 50px 15px;
+}
+
+.tours-events-list-holder-outer {
+    margin: 0;
+    position: relative;
+}
+
+.tours-event-content {
+    display: table;
+    border-bottom: 2px solid #24133f;
+    padding: 20px;
+}
+
+.tours-event-date-holder {
+    width: 11%;
+    white-space: nowrap;
+    display: table-cell;
+    vertical-align: middle;
+    color: #f5f5f5;
+    transition: color .15s ease-out;
+    text-decoration: none;
+}
+
+.tours-event-title {
+    display: table-cell;
+    vertical-align: middle;
+    color: #f5f5f5;
+    transition: color .15s ease-out;
+    text-decoration: none;
+}
+
+.tours-event-title-holder {
+    display: table-cell;
+    vertical-align: middle;
+    color: #f5f5f5;
+    transition: color .15s ease-out;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 23px;
+}
+
+.tours-event-buy-tickets-holder {
+    display: table-cell;
+    vertical-align: middle;
+    color: #f5f5f5;
+    transition: color .15s ease-out;
+    text-decoration: none;
+    text-align: center;
+    padding: .2rem .7rem;
+    background-image: linear-gradient(223deg, #c70cb0, #009898);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tours-main-label {
+    font-size: 64px;
+    color: #edf0f1;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.tours-event-date-holder-left {
+    display: inline-block;
+    padding-right: 12px;
+    width: 72px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tours-event-date-holder-right {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tours-event-day-number-holder {
+    font-size: 60px;
+    line-height: 1em;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+.tours-event-day-holder, .tours-event-month-holder {
+    display: block;
+    color: #f5f5f5;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .tours {
+        padding: 100px 5% 20px 5%;
+    }
+
+    .tours-event-title-holder {
+        padding-left: 10%;
+        padding-right: 5px;
+    }
+
+    .vc_column-inner {
+        padding: 0;
+        width: 100%;
+    }
+
+    .vc_row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .tours-event-content {
+        padding: 10px;
+    }
+
+    .tours-main-label {
+        font-size: 40px;
+        padding: 40px 10% 0 10%;
+    }
+
+    .tours-full-width {
+        padding: 0;
+    }
+
+    .tours-event-day-number-holder {
+        font-size: 10vw;
+    }
+
+    .tours-event-date-holder-left {
+        width: 46px;
+        padding-right: 0;
+    }
+
+    .tours-event-date-holder-right {
+        font-size: 3vw;
+        padding: 0px 5px;
+        width: 5px;
+    }
+
+    .tours-event-title {
+        font-size: 3vw;
+    }
+
+    .tours-event-buy-tickets-holder {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .tours {
+        padding: 120px 5% 20px 5%;
+    }
+
+    .tours-event-title-holder {
+        padding-left: 5%;
+        padding-right: 5px;
+    }
+
+    .vc_column-inner {
+        padding: 0;
+        width: 100%;
+    }
+
+    .vc_row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .tours-event-content {
+        padding: 10px;
+    }
+
+    .tours-main-label {
+        font-size: 40px;
+        padding: 40px 10% 0 10%;
+    }
+
+    .tours-full-width {
+        padding: 0;
+    }
+
+    .tours-event-day-number-holder {
+        font-size: 8vw;
+    }
+
+    .tours-event-date-holder-left {
+        width: 46px;
+        padding-right: 0;
+    }
+
+    .tours-event-date-holder-right {
+        font-size: 3vw;
+        padding: 0px 5px;
+        width: 20px;
+    }
+
+    .tours-event-title {
+        font-size: 3vw;
+    }
+
+    .tours-event-buy-tickets-holder {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .tours {
+        padding: 150px 5% 20px 5%;
+    }
+
+    .tours-event-title-holder {
+        padding-left: 5%;
+        padding-right: 5px;
+    }
+
+    .vc_column-inner {
+        padding: 0;
+        width: 100%;
+    }
+
+    .vc_row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .tours-event-content {
+        padding: 10px;
+    }
+
+    .tours-main-label {
+        font-size: 40px;
+        padding: 40px 10% 0 10%;
+    }
+
+    .tours-full-width {
+        padding: 0;
+    }
+
+    .tours-event-day-number-holder {
+        font-size: 6vw;
+    }
+
+    .tours-event-date-holder-left {
+        width: 46px;
+        padding-right: 0;
+    }
+
+    .tours-event-date-holder-right {
+        font-size: 3vw;
+        padding: 0px 5px;
+        width: 20px;
+    }
+
+    .tours-event-title {
+        font-size: 3vw;
+    }
+
+    .tours-event-buy-tickets-holder {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .tours {
+        padding: 100px 5% 25px 5%;
+    }
+    .tours-full-width {
+        padding: 25px 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .tours-full-width {
+        padding: 25px 20%;
+    }
+    .tours-event-title-holder {
+        width: 100%;
+    }
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 1.2em;
+    color: #f5f5f5;
+    font-weight: 600;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    background: 0 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+}

@@ -1,0 +1,149 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	height: 100%;
+    background-image: url(../img/background.a4988864.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+    z-index: 2
+}
+
+.welcome-box {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    padding: 36px;
+    border-radius: 15px
+}
+
+.welcome-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.welcome-box-logo {
+    background-image: url(../img/logo.7db4bcf9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    width: 220px;
+    height: 160px;
+    margin-bottom: 12px;
+}
+
+.welcome-box h1 {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 3rem;
+    text-align: center
+}
+
+.welcome-box p {
+    margin-top: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: left
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .welcome {
+        padding: 100px 0 0 0;
+        display: block;
+    }
+
+    .welcome-box {
+        width: 80%;
+        height: 80%;
+        padding: 36px 30px;
+        border-radius: 15px;
+    }
+
+    .welcome-box-logo {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    .welcome-box h1 {
+        font-size: 15px;
+    }
+    .welcome-box p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .welcome {
+        padding: 130px 0 0 0;
+        display: block;
+    }
+
+    .welcome-box {
+        width: 80%;
+        height: 80%;
+        padding: 36px;
+        border-radius: 15px;
+    }
+
+    .welcome-box-logo {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    .welcome-box h1 {
+        font-size: 25px;
+    }
+    .welcome-box p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .welcome {
+        padding: 130px 0 0 0;
+        display: block;
+    }
+
+    .welcome-box {
+        width: 80%;
+        height: 80%;
+        padding: 36px;
+        border-radius: 15px;
+    }
+
+    .welcome-box-logo {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    .welcome-box h1 {
+        font-size: 35px;
+    }
+    .welcome-box p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .welcome {
+        padding: 130px 0 0 0;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .welcome {
+        padding: 150px 0 0 0;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+}

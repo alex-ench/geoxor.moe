@@ -1,0 +1,199 @@
+.contact {
+    padding: 100px 10% 0px 10%;
+    flex-direction: column;
+    align-items: left;
+}
+
+.contact-box-title {
+    font-size: 64px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    padding: 5% 3% 0;
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 10%;
+    padding: 35px 45px;
+    border-radius: 15px;
+    border: 4px dashed #24133f;
+    background-color: #0f0423a3;
+}
+
+.social-links {
+    display: block;
+    font-size: 50px;
+    margin: auto;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.social-links svg {
+    transition: .1s ease
+}
+
+.social-links svg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.fa-twitch {
+    color: #d62cff
+}
+
+.fa-youtube {
+    color: #ff1d98
+}
+
+.fa-soundcloud {
+    color: #ff3a87
+}
+
+.fa-discord {
+    color: #b129ff
+}
+
+.fa-twitter {
+    color: #0fbdfc
+}
+
+.fa-spotify {
+    color: #88dfc7
+}
+
+.fa-itunes {
+    color: #ff0fde
+}
+
+.fa-facebook {
+    color: #0f7bfc
+}
+
+.fa-reddit-alien {
+    color: #ff0f5f
+}
+
+.fa-deezer {
+    color: #46e1ff
+}
+
+.fa-instagram {
+    color: #c62fff
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .contact {
+        padding: 100px 10% 25px 10%;
+        height: 100px;
+    }
+
+    .contact-box-title{
+        font-size: 40px;
+        padding: 40px 10% 0 10%;
+    }
+    .contact-box{
+        padding: 20px 25px;
+    }
+
+    .social-links {
+        font-size: 40px;
+    }
+
+    .contact-container {
+        padding: 10% 20% 25px 20%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .contact {
+        padding: 120px 10% 25px 10%;
+        height: 100px;
+    }
+
+    .contact-box {
+        width: 50%;
+        /*padding: 5% 10%;*/
+        padding: 20px 25px;
+    }
+
+    .contact-box-title {
+        padding: 30px 10% 0 10%;
+        font-size: 40px;
+    }
+
+    .social-links {
+        font-size: 40px;
+    }
+
+    .contact-container {
+        padding: 5% 10% 25px 10%;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .contact {
+        padding: 120px 10% 25px 10%;
+        height: 100px;
+    }
+
+    .contact-box {
+        width: 30%;
+        /*padding: 5% 10%;*/
+        padding: 20px 40px;
+    }
+
+    .contact-box-title {
+        padding: 40px 10% 0 10%;
+        font-size: 40px;
+    }
+
+    .social-links {
+        font-size: 40px;
+    }
+
+    .contact-container {
+        padding: 5% 5% 25px 5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact-container {
+        padding: 5% 5% 0;
+    }
+    .contact{
+        padding: 100px 5% 25px 5%;
+    }
+    .social-links{
+        font-size: 30px;
+    }
+    .contact-box{
+        padding: 35px 0px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .contact-container {
+        padding: 5% 5% 0;
+    }
+    .contact{
+        padding: 100px 5% 25px 5%;
+    }
+    .social-links{
+        font-size: 40px;
+    }
+    .contact-box{
+        padding: 35px 0px;
+        width: 90%;
+    }
+}

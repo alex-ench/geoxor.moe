@@ -1,0 +1,368 @@
+.downloads {
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+.downloads .wrap {
+    padding: 25px 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.cover {
+    width: 512px;
+    height: 512px;
+    border-radius: 8px;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.cover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    height: 488px;
+    padding: 24px 0;
+    width: 100%;
+    font-family: roboto, sans-serif
+}
+
+.details, .info div:not(.credits, .controls-container, .download-container) {
+    display: flex;
+    justify-content: left
+}
+
+.details {
+    flex-direction: column;
+    align-items: top
+}
+
+.title {
+    font-size: 36px;
+    text-align: left;
+}
+
+.type {
+    transform: translateY(8px);
+    margin-left: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    line-height: 28px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0 8px;
+    border-radius: 8px
+}
+
+.artist {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 24px
+}
+
+.category, .credits {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 8px
+}
+
+.artist {
+    font-size: 20px
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    max-width: 512px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    line-height: 20px;
+    margin-bottom: 24px
+}
+
+.tracklist {
+    display: flex;
+    flex-direction: column
+}
+
+.tracklist ol {
+    margin-bottom: 8px;
+    list-style: decimal !important
+}
+
+.tracklist li {
+    margin-bottom: 4px;
+    text-transform: none;
+}
+
+.credits {
+    font-size: 14px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff
+}
+
+.credits img {
+    filter: invert(1);
+    width: 24px;
+    height: auto;
+    margin-right: 8px
+}
+
+.credits:hover {
+    color: #ff1e98
+}
+
+.credits:hover img {
+    filter: invert(32%) sepia(88%) saturate(5209%) hue-rotate(314deg) brightness(104%) contrast(102%)
+}
+
+.credits .name {
+    transform: translateY(1px)
+}
+
+.credits .position {
+    transform: translateY(5.5px);
+    margin-left: 4px
+}
+
+.download {
+    padding: 12px;
+    border-radius: 8px;
+    width: 168px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.download:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.player-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    outline: none;
+}
+
+.player-button:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.player-button:hover svg {
+    color: white;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transform: scale(1.1);
+}
+
+.player-button svg {
+    color: #250b4e;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.fa-play {
+    color: #250b4e;
+}
+
+.fa-pause {
+    color: #250b4e;
+}
+
+.fa-volume-up {
+    color: #250b4e;
+}
+
+.fa-volume-down {
+    color: #250b4e;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .cover {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .downloads .wrap {
+        flex-direction: column;
+        padding: 130px 0 0 0;
+    }
+
+    .downloads {
+        min-height: 0;
+    }
+
+    .downloads .info {
+        justify-content: end;
+        width: 80vw;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .controls-container {
+        margin: 0px 0px 10px;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .player-button {
+        width: 12vw;
+        height: 12vw;
+        margin: 10px 5px;
+        font-size: 5vw;
+    }
+
+    .download-container {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .cover {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .downloads .wrap {
+        flex-direction: column;
+        padding: 150px 0 0 0;
+    }
+
+    .downloads {
+        min-height: 0;
+    }
+
+    .downloads .info {
+        justify-content: end;
+        width: 80vw;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .controls-container {
+        margin: 0px 0px 10px;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .player-button {
+        width: 10vw;
+        height: 10vw;
+        margin: 10px 5px;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .cover {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .downloads .wrap {
+        flex-direction: column;
+        padding: 170px 0 0 0;
+    }
+
+    .downloads {
+        min-height: 0;
+    }
+
+    .downloads .info {
+        justify-content: end;
+        width: 80vw;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .controls-container {
+        margin: 0px 0px 10px;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .player-button {
+        width: 10vw;
+        height: 10vw;
+        margin: 10px 5px;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .downloads .wrap {
+        flex-direction: column;
+        padding: 120px 0 0 0;
+    }
+
+    .downloads {
+        min-height: 0;
+    }
+
+    .downloads .info {
+        justify-content: end;
+        width: 80vw;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .controls-container {
+        margin: 0px 0px 10px;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .player-button {
+        width: 7vw;
+        height: 7vw;
+        margin: 10px 5px;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .download-container {
+        display: flex;
+        justify-content: left;
+        margin: 10px 0px;
+    }
+}
