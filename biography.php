@@ -32,8 +32,7 @@
         <h1 class="biography-title">Biography</h1>
         <div class="biography-container"><p class="biography-content">George Tsotsos (born 27
                 March 2001), better known as Geoxor (commonly misspelled as Geoxer), is a Greek music producer from
-                Florina,
-                Greece.
+                Florina, Greece.
                 <br><br> As an independent producer Geoxor is influenced by Panda Eyes, Virtual
                 Riot, Porter Robinson, Skrillex, and many others, along with having an anime theme throughout his
                 artwork
